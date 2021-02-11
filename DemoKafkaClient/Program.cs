@@ -8,7 +8,7 @@ namespace DemoKafkaClient
     {
         static void Main(string[] args)
         {
-            var server = "14.161.28.224:9092,192.168.10.123:9092,192.168.10.101:9092";
+            var server = "192.168.10.123:9092,192.168.10.101:9092";
             var topic = "Kafka.Test";
             var groupId = "Kafka.Test.Id";
             int i = 0;
